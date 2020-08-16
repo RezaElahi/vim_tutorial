@@ -38,8 +38,7 @@ VI can combine the previous commands! For example:
 	:![COMMAND]	--> Execute external command
 	:!ls	--> smae as ls, print Enter to return
 	:w TEST	--> write saved changes to TEXT
-	ce	--> change operator, delete the word and place you in insert mode
-	/:!rm TEST	--> remove TEST
+	:!rm TEST	--> remove TEST
 	v	--> visual selector (:w TEST, yank, d, ...)
 	v motion :w FILENAME	--> Write the selection to the file
 	:r TEST	--> Retrieve (read) the content of TEST and paste it belo the cursor!	
